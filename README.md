@@ -1,23 +1,39 @@
-Dr. Kokoro – RAG Chatbot (LangChain +  Streamlit)
+# Dr. Kokoro – RAG Chatbot (LangChain + Vertex AI + Streamlit)
 
-Dr. Kokoro is a Retrieval-Augmented Generation (RAG) chatbot built using LangChain, Google Gemini (Vertex AI), ChromaDB, and Streamlit.
-It supports PDF knowledge ingestion, elegant UI, context-aware answering, and human agent takeover.
+This project is a Retrieval-Augmented Generation (RAG) chatbot built using **LangChain**, **Google Gemini (Vertex AI)**, **ChromaDB**, and **Streamlit**.  
+It loads PDF documents, turns them into vector embeddings, retrieves context, and answers user questions with high accuracy.  
+It also includes a **human takeover mode**, custom UI, and persistent conversation state.
 
- Features
+---
 
-1. RAG Pipeline (PDF → Embeddings → ChromaDB → Context Retrieval)
+##  Features
+- RAG pipeline using **MiniLM-L6-v2** embeddings  
+- **Google Gemini 1.5 Flash** (Vertex AI) as the LLM  
+- Elegant **Streamlit chat interface** with custom CSS  
+- **ChromaDB** for vector search & context retrieval  
+- **Human takeover trigger** (“human help”, “contact support”)  
+- Refresh knowledge base button  
+- Shared state stored in `shared_state.json`  
 
-2. Google Gemini 1.5 Flash (via Vertex AI)
+---
 
-3. Streamlit Chat UI with custom gradient design
+##  Tech Stack
+- **LangChain**
+- **Google Vertex AI**
+- **Streamlit UI**
+- **HuggingFace Embeddings**
+- **Chroma Vector Database**
+- **PyPDFLoader**
+- **FileLock**
 
-4. Human Takeover Mode triggered by keywords
+---
 
-5. Persistent shared state (shared_state.json)
+## ▶️ How to Run the Project
 
-6. Beautiful chat bubbles (User / Bot / Human)
+### 1️⃣ Install dependencies
+```bash
+pip install -r requirements.txt
 
-7. Refresh Knowledge Base button
 
 Tech Stack
 Layer	Technology
@@ -36,17 +52,17 @@ Memory	JSON state + FileLock
 ├── customer chatbot/            
 └── README.md
 
-▶️ How to Run
-1️⃣ Install dependencies
+How to Run
+1️ Install dependencies
 pip install -r requirements.txt
 
-2️⃣ Set Google Cloud credentials
+2️ Set Google Cloud credentials
 export GOOGLE_APPLICATION_CREDENTIALS="key.json"
 
-3️⃣ Update your GCP project ID inside app.py
+3️ Update your GCP project ID inside app.py
 project="YOUR_GCP_PROJECT_ID"
 
-4️⃣ Run Streamlit
+4️ Run Streamlit
 streamlit run app.py
 
 ⚙️ What the Chatbot Does
