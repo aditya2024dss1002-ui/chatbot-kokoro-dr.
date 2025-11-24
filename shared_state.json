@@ -1,0 +1,19 @@
+{
+    "welcome_message": "Welcome to Kokoro Doctor! Our mission is to make AI-powered heart health accessible to everyone. \n\nAs a proud member of Harvard Innovation Labs, our team of experts in AI, healthcare, and business is dedicated to bridging the gap between early detection and life-saving action. Leveraging cutting-edge technology and extensive research, we provide patients, doctors, and caregivers with top-tier tools for cardiac care.\n\nOur commitment to affordable, data-driven healthcare positions us as a leader in the future of heart health solutions. We envision a world where no one suffers due to lack of access to quality cardiac care.\n",
+    "human_takeover": false,
+    "latest_query": {},
+    "latest_response": {},
+    "queries": {
+        "1eac3cfa-bc92-4a9c-bc22-d67e2af884e9": {
+            "content": "Dr. Kokoro, your distinguished AI heart health",
+            "timestamp": "2025-08-06 01:12:49.520416",
+            "status": "Pending"
+        },
+        "2bc9a111-3e5d-42ef-ae45-7a5a2c5b5a92": {
+            "content": "Harvard Innovation Labs.",
+            "timestamp": "2025-08-06 01:14:20.257750",
+            "status": "Pending"
+        }
+    },
+    "admin_name": "Aditya"
+}

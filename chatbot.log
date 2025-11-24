@@ -1,0 +1,20 @@
+INFO:httpx:HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 404 Not Found"
+ERROR:__main__:API connection attempt 1 failed: Error code: 404 - {'id': 'o4jeyvd-2kFHot-965b679089e091dc', 'error': {'message': 'Unable to access model Meta-Llama-3.1-8B-Instruct-Turbo. Please visit https://api.together.ai/models to view the list of supported models.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_available'}}
+INFO:httpx:HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 404 Not Found"
+ERROR:__main__:API connection attempt 2 failed: Error code: 404 - {'id': 'o4jezcm-2kFHot-965b67a21c8991dc', 'error': {'message': 'Unable to access model Meta-Llama-3.1-8B-Instruct-Turbo. Please visit https://api.together.ai/models to view the list of supported models.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_available'}}
+INFO:httpx:HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 404 Not Found"
+ERROR:__main__:API connection attempt 3 failed: Error code: 404 - {'id': 'o4jf1Jh-2kFHot-965b67b09abf91dc', 'error': {'message': 'Unable to access model Meta-Llama-3.1-8B-Instruct-Turbo. Please visit https://api.together.ai/models to view the list of supported models.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_available'}}
+WARNING:__main__:API failed. Proceeding with default responses only.
+WARNING:__main__:Shared state file is corrupted. Recreating with defaults.
+INFO:__main__:Displaying welcome message.
+INFO:__main__:Loaded shared state: {"welcome_message": "Welcome to Kokoro Doctor, a premier AI-powered heart health service. As an Innovation Member at Harvard Innovation Labs, we deliver expert solutions for early detection and life-saving action. Please enquire about our services, pricing, or support.", "human_takeover": false, "latest_query": {}, "latest_response": {}, "queries": {}, "admin_name": "Aditya"}
+INFO:__main__:API key verified successfully.
+INFO:httpx:HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:__main__:API key verified successfully.
+INFO:httpx:HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:__main__:API key verified successfully.
+INFO:httpx:HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:__main__:API key verified successfully.
+INFO:httpx:HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:__main__:API key verified successfully.
+INFO:httpx:HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
